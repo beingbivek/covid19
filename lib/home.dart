@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
           children: <Widget>[
             MyHeader(
               image: "assets/icons/Drcorona.svg",
-              textTop: "All you need",
+              textTop: "All you need changed",
               textBottom: "is stay at home.",
             ),
             Container(
