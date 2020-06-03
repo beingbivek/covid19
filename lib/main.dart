@@ -2,7 +2,7 @@ import 'package:covid_19/constant.dart';
 import 'package:flutter/material.dart';
 
 import 'home.dart';
-// commented and changed again
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -11,12 +11,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Covid 19 and 2020',
+      title: 'Covid 19',
       theme: ThemeData(
           scaffoldBackgroundColor: kBackgroundColor,
           fontFamily: "Poppins",
           textTheme: TextTheme(
-            // bodyText2: TextStyle(color: kBodyTextColor),
+            body2: TextStyle(color: kBodyTextColor),
           )),
       home: HomeScreen(),
     );
