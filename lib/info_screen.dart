@@ -13,7 +13,7 @@ class InfoScreen extends StatelessWidget {
           children: <Widget>[
             MyHeader(
               image: "assets/icons/coronadr.svg",
-              textTop: "Get to know",
+              textTop: "Get to know changed",
               textBottom: "About Covid-19.",
             ),
             Padding(
