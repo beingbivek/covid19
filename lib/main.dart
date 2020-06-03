@@ -2,7 +2,7 @@ import 'package:covid_19/constant.dart';
 import 'package:flutter/material.dart';
 
 import 'home.dart';
-// commented
+// commented and changed again
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
